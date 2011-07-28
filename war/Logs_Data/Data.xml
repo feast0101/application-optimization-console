@@ -1,0 +1,14 @@
+<graph caption='Average Service call' xAxisName='No.s of call' yAxisName='time taken(ms)' decimalPrecision='0' formatNumberScale='0'>
+<set name='LoginAuthentication' value='462' color='AFD8F8' />
+<set name='BasicSearch' value='857' color='F6BD0F' />
+<set name='AdvancedSearch' value='671' color='8BBA00' />
+<set name='AlertCreation' value='494' color='FF8E46' />
+<set name='SavedSearch' value='761' color='008E8E' />
+<set name='TopicBrowse' value='960' color='D64646' />
+<set name='My Research' value='629' color='8E468E' />
+<set name='RSS' value='622' color='588526' />
+<set name='Theausurus' value='376' color='B3AA00' />
+<set name='ComplexLimiters' value='494' color='008ED6' />
+<set name='PublicationBrowse' value='761' color='9D080D' />
+<set name='TopicSearch' value='960' color='A186BE' />
+</graph>
