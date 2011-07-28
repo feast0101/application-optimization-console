@@ -1,0 +1,37 @@
+<LogRoot>
+	<log4j:event
+		logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine"
+		timestamp="1308733948148" level="INFO" thread="btpool0-1">
+		<log4j:message><![CDATA[Successfully initialised a SearchFactory object by connecting to FastESP QR server(s): devl2fast2.aa1.pqe:80]]></log4j:message>
+	</log4j:event>
+	<log4j:event
+		logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine"
+		timestamp="1308733950069" level="INFO" thread="btpool0-1">
+		<log4j:message><![CDATA[ESP Query= Query[STRING[SessionId=ended], STRING[query=storeid:"9416654"], BOOL[rpf_navigation:enabled=false]]]]></log4j:message>
+	</log4j:event>
+	<log4j:event
+		logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine_ST"
+		timestamp="1308733951288" level="DEBUG" thread="btpool0-1">
+		<log4j:message><![CDATA[Session Id: ended, Finished FastESP Search Execution, Total time taken: 3150ms.  (Query init: 1921ms, Query execution: 1219ms)]]></log4j:message>
+	</log4j:event>
+	<log4j:event
+		logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine"
+		timestamp="1308733951288" level="INFO" thread="btpool0-1">
+		<log4j:message><![CDATA[Search executed. Found 1 results.]]></log4j:message>
+	</log4j:event>
+	<log4j:event
+		logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine"
+		timestamp="1308733955523" level="INFO" thread="btpool0-1">
+		<log4j:message><![CDATA[ESP Query= Query[STRING[SessionId=ended], STRING[query=storeid:"9416654"], BOOL[rpf_navigation:enabled=false]]]]></log4j:message>
+	</log4j:event>
+	<log4j:event
+		logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine_ST"
+		timestamp="1308733955898" level="DEBUG" thread="btpool0-1">
+		<log4j:message><![CDATA[Session Id: ended, Finished FastESP Search Execution, Total time taken: 320ms.  (Query init: 0ms, Query execution: 375ms)]]></log4j:message>
+	</log4j:event>
+	<log4j:event
+		logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine"
+		timestamp="1308733955898" level="INFO" thread="btpool0-1">
+		<log4j:message><![CDATA[Search executed. Found 1 results.]]></log4j:message>
+	</log4j:event>
+</LogRoot>

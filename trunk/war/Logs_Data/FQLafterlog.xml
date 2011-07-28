@@ -1,0 +1,126 @@
+<root>
+	<global>
+		<Misc>
+			<ExportVersion>FAST_v5.0.xsd</ExportVersion>
+			<ExportMinorVersion>5</ExportMinorVersion>
+			<GSVersion>Global_Schema_v4.0.xsd</GSVersion>
+			<ParentInfo>
+				<PublicationID>67</PublicationID>
+				<GroupingID GroupingDepth="1">7300150</GroupingID>
+			</ParentInfo>
+			<LastUpdateDate>20110209155358</LastUpdateDate>
+			<AuditBatchFileName>.PQ_SS_2011020920350000.xml.gz.unc
+			</AuditBatchFileName>
+			<CreateDate>20110208155326</CreateDate>
+		</Misc>
+		<Obj>
+			<ObjectTypes>
+				<other ObjectTypeOrigin="Publisher">News</other>
+				<mstar>News</mstar>
+			</ObjectTypes>
+			<ObjectRollupType>Articles - All Types</ObjectRollupType>
+			<TitleAtt>
+				<Title>The SAT Is to America as _ Is to China</Title>
+			</TitleAtt>
+			<NumericDate>2011-02-07</NumericDate>
+			<StartDate>2011-02-07</StartDate>
+			<EndDate>2011-02-07</EndDate>
+			<AlphaDate>Feb 7, 2011</AlphaDate>
+			<Language>
+				<RawLang>English</RawLang>
+			</Language>
+			<Language IsPrimary="true">
+				<ISO>
+					<ISOCode>ENG</ISOCode>
+					<ISOExpansion ISOCode="ENG">English</ISOExpansion>
+				</ISO>
+			</Language>
+			<Copyright>
+				<CopyrightData>Copyright Bloomberg Finance LP Feb 7, 2011
+				</CopyrightData>
+			</Copyright>
+			<PrintLocation>
+				<StartPage>1</StartPage>
+				<DocSection>EDUCATION</DocSection>
+			</PrintLocation>
+			<ObjectIDs>
+				<ObjectID IDOrigin="PQ">
+					<DOCID>2260467941</DOCID>
+				</ObjectID>
+				<ObjectID IDOrigin="PQ">
+					<PCID>58049121</PCID>
+				</ObjectID>
+				<ObjectID IDOrigin="PQ">
+					<PMID>29276</PMID>
+				</ObjectID>
+				<ObjectID>
+					<CODEN>BWITEU</CODEN>
+				</ObjectID>
+				<ObjectID>
+					<ProvJournalCode>BWE</ProvJournalCode>
+				</ObjectID>
+				<ObjectID IDOrigin="ADM">
+					<PublisherXID>INODBSWK0000362093</PublisherXID>
+				</ObjectID>
+				<ObjectID>
+					<FullTextLinkID>
+						magazine/content/11_07/b4215014259071.htm?chan=magazine+channel_news+-+global+economics
+					</FullTextLinkID>
+				</ObjectID>
+			</ObjectIDs>
+			<Contributors>
+				<Contributor ContribOrder="1">
+					<Author>
+						<NormalizedDisplayForm>Golden, Daniel
+						</NormalizedDisplayForm>
+						<FirstInitialsAtt>
+							<FirstInitials>D.</FirstInitials>
+						</FirstInitialsAtt>
+						<FirstNameAtt>
+							<FirstName>Daniel</FirstName>
+						</FirstNameAtt>
+						<LastNameAtt>
+							<LastName>Golden</LastName>
+						</LastNameAtt>
+						<OriginalFormAtt>
+							<OriginalForm>Daniel Golden</OriginalForm>
+						</OriginalFormAtt>
+					</Author>
+				</Contributor>
+			</Contributors>
+			<Links>
+				<OtherLink>
+					<DocUrl>
+						magazine/content/11_07/b4215014259071.htm?chan=magazine+channel_news+-+global+economics
+					</DocUrl>
+				</OtherLink>
+			</Links>
+			<Terms>
+				<CompanyTerm TermSource="ABI" PndxHeader="true">
+					<CompanyNameAtt>
+						<CompanyName>College Board-US</CompanyName>
+					</CompanyNameAtt>
+					<CompanyNAICAtt>
+						<CompanyNAIC>813410</CompanyNAIC>
+					</CompanyNAICAtt>
+				</CompanyTerm>
+				<ClassTerm TermSource="ABI" PndxHeader="true"
+					ClassTermType="Classification">
+					<ClassCode>8306</ClassCode>
+					<ClassExpansion>Schools and educational services
+					</ClassExpansion>
+				</ClassTerm>
+				<ClassTerm TermSource="ABI" PndxHeader="true"
+					ClassTermType="Classification">
+					<ClassCode>1200</ClassCode>
+					<ClassExpansion>Social policy</ClassExpansion>
+				</ClassTerm>
+				<ClassTerm TermSource="ABI" PndxHeader="true"
+					ClassTermType="Classification">
+					<ClassCode>9190</ClassCode>
+					<ClassExpansion>United States</ClassExpansion>
+				</ClassTerm>
+				<ClassTerm TermSource="ABI" PndxHeader="true"
+					ClassTermType="Classification">
+					<ClassCode>9179</ClassCode>
+					<ClassExpansion>Asia &amp; the Pacific</ClassExpansion></ClassTerm><GenSubjTerm TermSource="ABI" PndxHeader="true"><GenSubjValue>SAT assessment</GenSubjValue></GenSubjTerm><GenSubjTerm TermSource="ABI" PndxHeader="true"><GenSubjValue>Foreign students</GenSubjValue></GenSubjTerm><GenSubjTerm TermSource="ABI" PndxHeader="true"><GenSubjValue>Education policy</GenSubjValue></GenSubjTerm><GenSubjTerm TermSource="ABI" PndxHeader="true"><GenSubjValue>Higher education</GenSubjValue></GenSubjTerm><GenSubjTerm TermSource="ABI" PndxHeader="true"><GenSubjValue>Student recruitment</GenSubjValue></GenSubjTerm><Term TermSource="ABI" PndxHeader="true"><Geographic>United States--US</Geographic></Term><Term TermSource="ABI" PndxHeader="true"><Geographic>China</Geographic></Term><FlexTerm TermSource="ADM"><UndefinedFlex FlexTermName="FTWebLinkID"><FlexTermValue>magazine/content/11_07/b4215014259071.htm?chan=magazine+channel_news+-+global+economics</FlexTermValue></UndefinedFlex></FlexTerm></Terms><Abstract><Medium WordCount="124"><AbsText HTMLContent="true"> &lt;html&gt; &lt;head&gt; &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt; &lt;title/&gt; &lt;/head&gt; &lt;body&gt; &lt;p&gt; The number of Chinese undergraduates in the US has quadrupled in four years. The nonprofit College Board, which owns the SAT, PSAT, and Advanced Placement programs, is seeking the education ministry's permission to start offering the SAT on the mainland. However, Chinese officials have a very mixed feeling about the SAT policy, says Tom Melcher, chairman of Zinch China, an online social network that matches Chinese students with US colleges and scholarships. Officials do not want the SAT blasted on all the walls of all the high schools, Melcher said. US college recruiters are mining China's best schools for well-qualified, full-paying applicants. Increasing affluence and China's one-child policy mean middle-class Chinese can afford tuitions that far exceed the price of school at home. &lt;/p&gt; &lt;/body&gt; &lt;/html&gt; </AbsText></Medium></Abstract><LegacyDataMapping><MappingVersion>$Header: $</MappingVersion></LegacyDataMapping></Obj><DFS><PubFrosting><Title>Business Week</Title><MpubId>67</MpubId><SortTitle>Business Week</SortTitle><Qualifier>New York</Qualifier><JournalCode>BWE</JournalCode><SourceType>Magazines</SourceType><EndDate>99991231</EndDate><publisher><PublisherName>Bloomberg Finance LP</PublisherName><PublisherAddress><Address1>499 Park Avenue</Address1><City>NEW YORK</City><Province>NY</Province><ZipCode>10022</ZipCode><Country>United States</Country></PublisherAddress><URL>http://www.businessweek.com/</URL></publisher><Locators><Locator Type="PQPMID"><Name>29276</Name></Locator><Locator Type="ISSN"><Name>07398395</Name></Locator><Locator Type="CODEN"><Name>BWITEU</Name></Locator></Locators><Languages><Language>eng</Language></Languages><Flags><Flag Value="N" Type="BLOCK_BY_PUB"></Flag><Flag Value="N" Type="DOC_USAGE_ROYALTIES"></Flag><Flag Value="Y" Type="ALERTING_FLAG"></Flag><Flag Value="N" Type="ARTICLE_TRANSLATION"></Flag></Flags><Subjects><Subject>Business And Economics</Subject></Subjects><searchRights><blockedFor><blockRule>3</blockRule></blockedFor></searchRights><CoverImageType>None</CoverImageType><BrowseType>IssueDateBrowse</BrowseType><EmbargoDays>0</EmbargoDays><HasGaps>0</HasGaps><CoverageRange><AlphaStartDate>FEB 26, 1972</AlphaStartDate><AlphaEndDate>Jan 10, 2011</AlphaEndDate><StartIssue>2217</StartIssue></CoverageRange></PubFrosting><GroupFrosting><AlphaDate>Feb 7, 2011</AlphaDate><StartDate>2011-02-07</StartDate><EndDate>2011-02-07</EndDate><Locators><Locator Type="PQPCID"><Name>58049121</Name></Locator></Locators></GroupFrosting></DFS><RANGES></RANGES></global></root>

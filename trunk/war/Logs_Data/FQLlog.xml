@@ -1,0 +1,252 @@
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine" timestamp="1308747652280" level="INFO" thread="btpool0-7">
+<log4j:message><![CDATA[Successfully initialised a SearchFactory object by connecting to FastESP QR server(s): devl2fast2.aa1.pqe:80]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747652390" level="DEBUG" thread="btpool0-7">
+<log4j:message><![CDATA[Initialising a FastESP Query object.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.DefaultFastESPQueryTranslator" timestamp="1308747652390" level="DEBUG" thread="btpool0-7">
+<log4j:message><![CDATA[Populating the FastESP Query with search terms.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747652390" level="DEBUG" thread="btpool0-7">
+<log4j:message><![CDATA[Populating the FastESP Query with search parameters.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747652421" level="DEBUG" thread="btpool0-7">
+<log4j:message><![CDATA[Could not set: qtf_synonym:use_dictionaries = short_spellvars.aut into the FastESP query object using API reflection, will now try using blind faith. qtf_synonym:use_dictionaries]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747652421" level="DEBUG" thread="btpool0-7">
+<log4j:message><![CDATA[Could not set: qtf_synonym:querysynonyms = true into the FastESP query object using API reflection, will now try using blind faith. qtf_synonym:querysynonyms]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747652421" level="DEBUG" thread="btpool0-7">
+<log4j:message><![CDATA[Could not set: bundles = 1006371 1007091 1006385 1006815 1008137 1006773 1006102 1008086 1008084 1005683 1005685 1005684 1007481 1008057 1008052 1007493 1005696 1000001 1005692 1008069 1008060 1006742 1007911 1007910 1007913 1007912 1008107 1005924 1007915 1007914 1007917 1007916 1007919 1007885 1007884 1007883 1007888 1007889 1007886 1007887 1006545 1007615 1007261 1007900 1006201 1006202 1006200 1007904 1007903 1007902 1007901 1007908 1007890 1007907 1007906 1007892 1007905 1007891 1007894 1007893 1007896 1007909 1007895 1007897 1007898 1007899 1006209 1006208 1006207 1006730 1006205 1006204 1006203 1005635 1008128 1006520 1005641 1007106 1006210 1007108 1007107 1006213 1006728 1006729 1007200 1007381 1007382 1008121 1008120 1007384 1007388 1007389 1006322 1006323 1005916 1008213 1006418 1007393 1006417 1006324 1007398 1008113 1007399 1007450 1007940 1007451 1007454 1007456 1007455 1008311 1007845 1006447 1007557 1007156 1006448 1007556 1007558 1006446 1007553 1007554 1000269 1007949 1000264 1000265 1007550 1007551 1007457 1007458 1007947 1007948 1007941 1007942 1007943 1006050 1007951 1007950 1007443 1007854 1007853 1007851 1007852 1007447 1007952 1007953 1007472 1007537 1007330 1007133 1000283 1007927 1007929 1005817 1007530 1007139 1007533 1007920 1007924 1007926 1007023 1007025 1007526 1007524 1000273 1000272 1008303 1000271 1007528 1008301 1007874 1007938 1007939 1007522 1008308 1007932 1007933 1007930 1007931 1007936 1007937 1007934 1007935 1008185 1008032 1007989 1007591 1007416 1007590 1006953 1006956 1007418 1007417 1000369 1000368 1007419 1006959 1007593 1000220 1007592 1007595 1006481 1007594 1006673 1007589 1006097 1006671 1007994 1007995 1007992 1007993 1007990 1007991 1007401 1007580 1007403 1007402 1008423 1007997 1007407 1007581 1007578 1007579 1007432 1007433 1007434 1006084 1007961 1007962 1007430 1007964 1007963 1007966 1007965 1007967 1007435 1007573 1007575 1007574 1007577 1007576 1007569 1007567 1007568 1007161 1007422 1007067 1007160 1007421 1007428 1007427 1006986 1007426 1006985 1007425 1006984 into the FastESP query object using API reflection, will now try using blind faith. bundles]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747652421" level="DEBUG" thread="btpool0-7">
+<log4j:message><![CDATA[Populating the FastESP Query with sort type.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747652436" level="DEBUG" thread="btpool0-7">
+<log4j:message><![CDATA[FastESP query= and(filter(bdl:int("1006371 1007091 1006385 1006815 1008137 1006773 1006102 1008086 1008084 1005683 1005685 1005684 1007481 1008057 1008052 1007493 1005696 1000001 1005692 1008069 1008060 1006742 1007911 1007910 1007913 1007912 1008107 1005924 1007915 1007914 1007917 1007916 1007919 1007885 1007884 1007883 1007888 1007889 1007886 1007887 1006545 1007615 1007261 1007900 1006201 1006202 1006200 1007904 1007903 1007902 1007901 1007890 1007908 1007907 1007892 1007906 1007891 1007905 1007894 1007893 1007896 1007895 1007909 1007897 1007898 1007899 1006209 1006208 1006207 1006730 1006205 1006204 1005635 1006203 1008128 1006520 1005641 1006210 1007106 1007108 1006213 1007107 1006728 1006729 1007200 1007381 1007382 1008121 1007384 1008120 1007388 1007389 1006322 1006323 1005916 1008213 1006418 1007393 1006417 1006324 1007398 1008113 1007399 1007450 1007940 1007451 1007454 1007456 1007455 1008311 1007845 1006447 1007557 1007156 1006448 1007556 1007558 1006446 1007553 1007554 1000269 1007949 1000264 1000265 1007550 1007551 1007457 1007458 1007947 1007948 1007941 1007942 1007943 1006050 1007951 1007950 1007443 1007854 1007853 1007851 1007852 1007447 1007952 1007953 1007472 1007537 1007330 1007133 1000283 1007927 1007929 1005817 1007530 1007139 1007533 1007920 1007924 1007926 1007023 1007025 1007526 1007524 1000273 1000272 1008303 1000271 1007528 1008301 1007874 1007938 1007939 1007522 1008308 1007932 1007933 1007930 1007931 1007936 1007937 1007934 1007935 1008185 1008032 1007989 1007591 1007416 1007590 1006953 1006956 1007418 1007417 1000369 1007419 1000368 1006959 1000220 1007593 1007592 1006481 1007595 1007594 1006673 1006671 1006097 1007589 1007994 1007995 1007992 1007993 1007990 1007401 1007991 1007580 1007403 1007402 1008423 1007407 1007997 1007581 1007578 1007579 1007432 1007433 1007434 1007961 1006084 1007430 1007962 1007964 1007963 1007966 1007965 1007435 1007967 1007573 1007575 1007574 1007577 1007576 1007569 1007567 1007568 1007422 1007161 1007067 1007421 1007160 1007428 1007427 1007426 1006986 1007425 1006985 1006984", mode="or")), filter(and(meta.collection:or(MSTAR))))]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine" timestamp="1308747652436" level="INFO" thread="btpool0-7">
+<log4j:message><![CDATA[Executing search: [queryType=backingSearch-complexLimiters:OS; sortType=; searchTerms=[]; searchParameters={chunkSize=1, rpf_navigation:navigators=sourcetypenav(sort=name/ascending),objecttypenav(sort=name/ascending),genericbrowsenav0(sort=name/ascending,filter=5000/0/docfeature),languagenav(sort=name/ascending,filter=200/0/*)}; metaData={dbselections=arts|science|literature|health|business|UNASSIGNED|dissertations|news|history|socialsciences, FDB=NONE}]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine" timestamp="1308747654405" level="INFO" thread="btpool0-7">
+<log4j:message><![CDATA[ESP Query= Query[STRING[SessionId=5mhoo4x3jlsm], STRING[rff_ddr:enabled=false], STRING[query=and(filter(bdl:int("1006371 1007091 1006385 1006815 1008137 1006773 1006102 1008086 1008084 1005683 1005685 1005684 1007481 1008057 1008052 1007493 1005696 1000001 1005692 1008069 1008060 1006742 1007911 1007910 1007913 1007912 1008107 1005924 1007915 1007914 1007917 1007916 1007919 1007885 1007884 1007883 1007888 1007889 1007886 1007887 1006545 1007615 1007261 1007900 1006201 1006202 1006200 1007904 1007903 1007902 1007901 1007890 1007908 1007907 1007892 1007906 1007891 1007905 1007894 1007893 1007896 1007895 1007909 1007897 1007898 1007899 1006209 1006208 1006207 1006730 1006205 1006204 1005635 1006203 1008128 1006520 1005641 1006210 1007106 1007108 1006213 1007107 1006728 1006729 1007200 1007381 1007382 1008121 1007384 1008120 1007388 1007389 1006322 1006323 1005916 1008213 1006418 1007393 1006417 1006324 1007398 1008113 1007399 1007450 1007940 1007451 1007454 1007456 1007455 1008311 1007845 1006447 1007557 1007156 1006448 1007556 1007558 1006446 1007553 1007554 1000269 1007949 1000264 1000265 1007550 1007551 1007457 1007458 1007947 1007948 1007941 1007942 1007943 1006050 1007951 1007950 1007443 1007854 1007853 1007851 1007852 1007447 1007952 1007953 1007472 1007537 1007330 1007133 1000283 1007927 1007929 1005817 1007530 1007139 1007533 1007920 1007924 1007926 1007023 1007025 1007526 1007524 1000273 1000272 1008303 1000271 1007528 1008301 1007874 1007938 1007939 1007522 1008308 1007932 1007933 1007930 1007931 1007936 1007937 1007934 1007935 1008185 1008032 1007989 1007591 1007416 1007590 1006953 1006956 1007418 1007417 1000369 1007419 1000368 1006959 1000220 1007593 1007592 1006481 1007595 1007594 1006673 1006671 1006097 1007589 1007994 1007995 1007992 1007993 1007990 1007401 1007991 1007580 1007403 1007402 1008423 1007407 1007997 1007581 1007578 1007579 1007432 1007433 1007434 1007961 1006084 1007430 1007962 1007964 1007963 1007966 1007965 1007435 1007967 1007573 1007575 1007574 1007577 1007576 1007569 1007567 1007568 1007422 1007161 1007067 1007421 1007160 1007428 1007427 1007426 1006986 1007425 1006985 1006984", mode="or")), filter(and(meta.collection:or(MSTAR))))], STRING[qtf_synonym:use_dictionaries=short_spellvars.aut], STRING[rff_ddr:slot1=bsumdupid], STRING[rpf_navigation:enabled=true], STRING[QueryType=backingSearch-complexLimiters:OS], INT[hits=1], STRING[qtf_lemmatize=true], STRING[qtf_synonym:querysynonyms=true], STRING[bundles=1006371 1007091 1006385 1006815 1008137 1006773 1006102 1008086 1008084 1005683 1005685 1005684 1007481 1008057 1008052 1007493 1005696 1000001 1005692 1008069 1008060 1006742 1007911 1007910 1007913 1007912 1008107 1005924 1007915 1007914 1007917 1007916 1007919 1007885 1007884 1007883 1007888 1007889 1007886 1007887 1006545 1007615 1007261 1007900 1006201 1006202 1006200 1007904 1007903 1007902 1007901 1007908 1007890 1007907 1007906 1007892 1007905 1007891 1007894 1007893 1007896 1007909 1007895 1007897 1007898 1007899 1006209 1006208 1006207 1006730 1006205 1006204 1006203 1005635 1008128 1006520 1005641 1007106 1006210 1007108 1007107 1006213 1006728 1006729 1007200 1007381 1007382 1008121 1008120 1007384 1007388 1007389 1006322 1006323 1005916 1008213 1006418 1007393 1006417 1006324 1007398 1008113 1007399 1007450 1007940 1007451 1007454 1007456 1007455 1008311 1007845 1006447 1007557 1007156 1006448 1007556 1007558 1006446 1007553 1007554 1000269 1007949 1000264 1000265 1007550 1007551 1007457 1007458 1007947 1007948 1007941 1007942 1007943 1006050 1007951 1007950 1007443 1007854 1007853 1007851 1007852 1007447 1007952 1007953 1007472 1007537 1007330 1007133 1000283 1007927 1007929 1005817 1007530 1007139 1007533 1007920 1007924 1007926 1007023 1007025 1007526 1007524 1000273 1000272 1008303 1000271 1007528 1008301 1007874 1007938 1007939 1007522 1008308 1007932 1007933 1007930 1007931 1007936 1007937 1007934 1007935 1008185 1008032 1007989 1007591 1007416 1007590 1006953 1006956 1007418 1007417 1000369 1000368 1007419 1006959 1007593 1000220 1007592 1007595 1006481 1007594 1006673 1007589 1006097 1006671 1007994 1007995 1007992 1007993 1007990 1007991 1007401 1007580 1007403 1007402 1008423 1007997 1007407 1007581 1007578 1007579 1007432 1007433 1007434 1006084 1007961 1007962 1007430 1007964 1007963 1007966 1007965 1007967 1007435 1007573 1007575 1007574 1007577 1007576 1007569 1007567 1007568 1007161 1007422 1007067 1007160 1007421 1007428 1007427 1006986 1007426 1006985 1007425 1006984], STRING[qtpipeline=scopesearch], STRING[encoding=utf-8], STRING[resubmitflags=7984], STRING[spell=suggest], STRING[rpf_navigation:navigators=sourcetypenav(sort=name/ascending),objecttypenav(sort=name/ascending),genericbrowsenav0(sort=name/ascending,filter=5000/0/docfeature),languagenav(sort=name/ascending,filter=200/0/*)]]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine" timestamp="1308747654405" level="INFO" thread="btpool0-7">
+<log4j:message><![CDATA[aocPointer:and(filter(bdl:int("1006371 1007091 1006385 1006815 1008137 1006773 1006102 1008086 1008084 1005683 1005685 1005684 1007481 1008057 1008052 1007493 1005696 1000001 1005692 1008069 1008060 1006742 1007911 1007910 1007913 1007912 1008107 1005924 1007915 1007914 1007917 1007916 1007919 1007885 1007884 1007883 1007888 1007889 1007886 1007887 1006545 1007615 1007261 1007900 1006201 1006202 1006200 1007904 1007903 1007902 1007901 1007890 1007908 1007907 1007892 1007906 1007891 1007905 1007894 1007893 1007896 1007895 1007909 1007897 1007898 1007899 1006209 1006208 1006207 1006730 1006205 1006204 1005635 1006203 1008128 1006520 1005641 1006210 1007106 1007108 1006213 1007107 1006728 1006729 1007200 1007381 1007382 1008121 1007384 1008120 1007388 1007389 1006322 1006323 1005916 1008213 1006418 1007393 1006417 1006324 1007398 1008113 1007399 1007450 1007940 1007451 1007454 1007456 1007455 1008311 1007845 1006447 1007557 1007156 1006448 1007556 1007558 1006446 1007553 1007554 1000269 1007949 1000264 1000265 1007550 1007551 1007457 1007458 1007947 1007948 1007941 1007942 1007943 1006050 1007951 1007950 1007443 1007854 1007853 1007851 1007852 1007447 1007952 1007953 1007472 1007537 1007330 1007133 1000283 1007927 1007929 1005817 1007530 1007139 1007533 1007920 1007924 1007926 1007023 1007025 1007526 1007524 1000273 1000272 1008303 1000271 1007528 1008301 1007874 1007938 1007939 1007522 1008308 1007932 1007933 1007930 1007931 1007936 1007937 1007934 1007935 1008185 1008032 1007989 1007591 1007416 1007590 1006953 1006956 1007418 1007417 1000369 1007419 1000368 1006959 1000220 1007593 1007592 1006481 1007595 1007594 1006673 1006671 1006097 1007589 1007994 1007995 1007992 1007993 1007990 1007401 1007991 1007580 1007403 1007402 1008423 1007407 1007997 1007581 1007578 1007579 1007432 1007433 1007434 1007961 1006084 1007430 1007962 1007964 1007963 1007966 1007965 1007435 1007967 1007573 1007575 1007574 1007577 1007576 1007569 1007567 1007568 1007422 1007161 1007067 1007421 1007160 1007428 1007427 1007426 1006986 1007425 1006985 1006984", mode="or")), filter(and(meta.collection:or(MSTAR))))]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine_ST" timestamp="1308747656046" level="DEBUG" thread="btpool0-7">
+<log4j:message><![CDATA[Session Id: 5mhoo4x3jlsm, Finished FastESP Search Execution, Total time taken: 3750ms.  (Query init: 2109ms, Query execution: 1641ms)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine" timestamp="1308747656046" level="INFO" thread="btpool0-7">
+<log4j:message><![CDATA[Search executed. Found 4033879 results.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.ReservedCharFilter" timestamp="1308747702202" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.ReservedCharFilter" timestamp="1308747702202" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Output: stop=false, test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MultiMnemonicTranslator" timestamp="1308747702202" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MultiMnemonicTranslator" timestamp="1308747702218" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Output: stop=false, test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.FieldMnemonicTranslator" timestamp="1308747702218" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[origTerm : test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.FieldMnemonicTranslator" timestamp="1308747702218" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[processedTerm : test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.FieldMnemonicTranslator" timestamp="1308747702218" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.FieldMnemonicTranslator" timestamp="1308747702233" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Output: stop=false, test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.OperatorTranslator" timestamp="1308747702233" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.OperatorTranslator" timestamp="1308747702249" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Output: stop=false, test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.ObitsProximityTranslator" timestamp="1308747702249" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MStarToFqlTranslator" timestamp="1308747702249" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MStarToFqlTranslator" timestamp="1308747702249" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Default field: citationBodyTags]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.strategies.TermStrategyBuilderImpl" timestamp="1308747702343" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Strategy for citationBodyTags => implicitOrCompound]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MStarToFqlTranslator" timestamp="1308747702374" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Parsed query: or(keyword:test, body:test, global:test, tagging:test)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MStarToFqlTranslator" timestamp="1308747702374" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Output: stop=false, or(keyword:test, body:test, global:test, tagging:test)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747702530" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Initialising a FastESP Query object.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.DefaultFastESPQueryTranslator" timestamp="1308747702530" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Populating the FastESP Query with search terms.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.ReservedCharFilter" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.ReservedCharFilter" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Output: stop=false, test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MultiMnemonicTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MultiMnemonicTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Output: stop=false, test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.FieldMnemonicTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[origTerm : test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.FieldMnemonicTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[processedTerm : test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.FieldMnemonicTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.FieldMnemonicTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Output: stop=false, test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.OperatorTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.OperatorTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Output: stop=false, test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.ObitsProximityTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MStarToFqlTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Input: test]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MStarToFqlTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Default field: citationBodyTags]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.strategies.TermStrategyBuilderImpl" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Strategy for citationBodyTags => implicitOrCompound]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MStarToFqlTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Parsed query: or(keyword:test, body:test, global:test, tagging:test)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.MStarToFqlTranslator" timestamp="1308747702546" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Output: stop=false, or(keyword:test, body:test, global:test, tagging:test)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747702561" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Populating the FastESP Query with search parameters.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747702561" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Could not set: qtf_synonym:use_dictionaries = short_spellvars.aut into the FastESP query object using API reflection, will now try using blind faith. qtf_synonym:use_dictionaries]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747702561" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Could not set: ftblock = 194000 1 194001 into the FastESP query object using API reflection, will now try using blind faith. ftblock]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747702561" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Could not set: qtf_synonym:querysynonyms = true into the FastESP query object using API reflection, will now try using blind faith. qtf_synonym:querysynonyms]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747702561" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Could not set: bundles = 1007937 into the FastESP query object using API reflection, will now try using blind faith. bundles]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747702561" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Populating the FastESP Query with sort type.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747702577" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Set a FastESP sort key:  rankprofile= default]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747702577" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Set a FastESP sort key:  sortby= numstartdate, isAscending= false]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.translation.strategies.TermStrategyBuilderImpl" timestamp="1308747702593" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Strategy for citationBodyTags => implicitOrCompound]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.AbstractFastESPQueryTranslator" timestamp="1308747702593" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[FastESP query= and(and(or(keyword:test, body:test, global:test, tagging:test), filter(bdl:int("1007937", mode="or"))), filter(and(meta.collection:or(MSTAR))))]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine" timestamp="1308747702593" level="INFO" thread="btpool0-8">
+<log4j:message><![CDATA[Executing search: [queryType=basic:pqgoldarts; sortType=relevance; searchTerms=[<AND|citationBodyTags:test>]; searchParameters={NAVIGATORS=sourcetypenav,pubtitlenav,objecttypenav,mainsubjectnav,classnav,companysubjectnav,locationsubjectnav,namesubjectnav,tagnav,languagenav(filter=200/0/*),genericbrowsenav0(filter=1000/0/docfeature),genericbrowsenav1(filter=1000/0/pubfreq), chunkSize=50, additionalNavigators=sourcetypenav,objecttypenav,genericbrowsenav0(filter=1000/0/docfeature),languagenav(filter=200/0/*), ftblock=194000 1 194001}; metaData={UsageSearchMode=Basic, dbselections=1007937, FDB=NONE}]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine" timestamp="1308747702593" level="INFO" thread="btpool0-8">
+<log4j:message><![CDATA[ESP Query= Query[STRING[SessionId=5mhoo4x3jlsm], STRING[rff_ddr:enabled=false], STRING[sortby=default -numstartdate], STRING[query=and(and(or(keyword:test, body:test, global:test, tagging:test), filter(bdl:int("1007937", mode="or"))), filter(and(meta.collection:or(MSTAR))))], STRING[qtf_synonym:use_dictionaries=short_spellvars.aut], STRING[rff_ddr:slot1=bsumdupid], STRING[ftblock=194000 1 194001], STRING[rpf_navigation:enabled=true], STRING[QueryType=basic:pqgoldarts], INT[hits=50], STRING[qtf_lemmatize=true], STRING[qtf_synonym:querysynonyms=true], STRING[bundles=1007937], STRING[qtpipeline=scopesearch], STRING[encoding=utf-8], STRING[resubmitflags=7984], STRING[spell=suggest], STRING[rpf_navigation:navigators=sourcetypenav,pubtitlenav,objecttypenav,mainsubjectnav,classnav,companysubjectnav,locationsubjectnav,namesubjectnav,tagnav,languagenav(filter=200/0/*),genericbrowsenav0(filter=1000/0/docfeature),genericbrowsenav1(filter=1000/0/pubfreq),sourcetypenav,objecttypenav,genericbrowsenav0(filter=1000/0/docfeature),languagenav(filter=200/0/*)]]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine" timestamp="1308747702593" level="INFO" thread="btpool0-8">
+<log4j:message><![CDATA[aocPointer:and(and(or(keyword:test, body:test, global:test, tagging:test), filter(bdl:int("1007937", mode="or"))), filter(and(meta.collection:or(MSTAR))))]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine_ST" timestamp="1308747710515" level="DEBUG" thread="btpool0-8">
+<log4j:message><![CDATA[Session Id: 5mhoo4x3jlsm, Finished FastESP Search Execution, Total time taken: 7985ms.  (Query init: 63ms, Query execution: 7922ms)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.proquest.apps.corelib.search.impl.fastesp.FastESPSearchEngine" timestamp="1308747710515" level="INFO" thread="btpool0-8">
+<log4j:message><![CDATA[Search executed. Found 6506 results.]]></log4j:message>
+</log4j:event>
+
