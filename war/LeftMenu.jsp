@@ -18,6 +18,9 @@
 <li>
 <span onclick="document.getElementById('chart').src='Usage Log Chart.jsp';">Usage Log Chart</span><br>
 </li>
+<li>
+<span onclick="document.getElementById('chart').src='Service Call Chart.jsp';">Service Call Chart</span><br>
+</li>
 </ul>
 
 </body>
