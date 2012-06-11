@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Revolver.js &mdash; A new content slider that makes no assumptions about your markup.</title>
+
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/prettify.css" />
+	</head>
+	
+	<body >
+
+
+        
+
+        <div id="wrapper">
+
+            <h3>Quick Example</h3>
+
+            <p>Here's a quick and dirty slideshow to illustrate the flexibility that is possible with Revolver.</p>
+
+            <div id="revolver" class="revolver container stack">
+
+                <img class="slide" src="assets/img/1.png" alt="" />
+                <img class="slide hidden" src="assets/img/2.png" alt="" />
+                <img class="slide hidden" src="assets/img/3.png" alt="" />
+                <img class="slide hidden" src="assets/img/4.png" alt="" />
+                <img class="slide hidden" src="assets/img/5.png" alt="" />
+                <img class="slide hidden" src="assets/img/6.png" alt="" />
+
+            </div>
+
+            <h3>Full list of controls <small>Go ahead, click 'em!</small></h3>
+
+            <div class="controls">
+                <a class="first" href="#">first</a>
+                <a class="previous" href="#">previous</a>
+                <a class="goto" data-goto="0" href="#">0</a>
+                <a class="goto" data-goto="1" href="#">1</a>
+                <a class="goto" data-goto="2" href="#">2</a>
+                <a class="goto" data-goto="3" href="#">3</a>
+                <a class="goto" data-goto="4" href="#">4</a>
+                <a class="goto" data-goto="5" href="#">5</a>
+                <a class="next" href="#">next</a>
+                <a class="last" href="#">last</a>
+                <a class="stop" href="#">stop</a>
+                <a class="play" href="#">play</a>
+                <a class="pause" href="#">pause</a>
+                <a class="restart" href="#">restart</a>
+            </div>
+
+        </div>        
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="assets/js/jquery.revolver.min.js"></script>
+        <script src="assets/js/prettify.js"></script>
+
+        <script type="text/javascript">
+
+            var $revolver = $('#revolver').revolver(),
+                revolver  = $revolver.data('revolver'),
+                $controls = $('.controls');
+
+            $controls.find('.first, .previous, .next, .last, .play, .stop, .pause, .restart').click(function(e){
+                e.preventDefault();
+                revolver[this.className]();
+            });
+
+            $controls.find('.goto').click(function(e){
+                e.preventDefault();
+                revolver.goTo($(this).data('goto'));
+            });
+
+        </script>
+More script and css style
+: <a href="http://www.htmldrive.net/" title="HTML DRIVE - Free DHMTL Scripts,Jquery plugins,Javascript,CSS,CSS3,Html5 Library">www.htmldrive.net </a>
+	</body>
+</html>

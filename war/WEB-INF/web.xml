@@ -8,11 +8,20 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>AOC</servlet-name>
 		<servlet-class>com.aoc.analyze.AOCServlet</servlet-class>
 	</servlet>
+	 <servlet>
+        <servlet-name>sign</servlet-name>
+        <servlet-class>com.aoc.cloudsql.GuestbookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sign</servlet-name>
+        <url-pattern>/sign</url-pattern>
+    </servlet-mapping>
+  
 	<servlet-mapping>
 		<servlet-name>AOC</servlet-name>
 		<url-pattern>/aoc</url-pattern>
 	</servlet-mapping>
-	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
-	</welcome-file-list>
+  <welcome-file-list>
+        <welcome-file>guestbook.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>
